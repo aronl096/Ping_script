@@ -1,4 +1,4 @@
-#Authors Aaron Luchan and Masanbat Mulo
+#Author: Aaron Luchan
 import socket
 import struct
 import sys
