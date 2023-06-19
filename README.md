@@ -5,7 +5,7 @@ The ping command is used to check the connection between 2 machines.
 I wrote a program called "ping.py" which will get an argument indicating which host to ping.  
 **Usage: python3 ping.py `<IP>`** (just like the ping command).    
 The program will send an ICMP ECHO REQUEST to the host, and when receiving ICMP-ECHO-REPLY , the program will send the next ICMP ECHO REQUEST (no need to stop).  
-For each packet received, you will get printed the packet IP, packet sequence number, and time between the request and replay.  
+For each packet received, you will get printed the packet IP, packet sequence number, and time between the request and replay.   
 
 ## Watchdog.py
 
